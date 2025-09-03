@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Package</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="assets/css/media.css"> -->
+    <link rel="stylesheet" href="assets/css/media1.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container header-container">
+        <a href="./index.html" class="logo">
+          <img src="./assets/image/Logo.png" alt="logo" />
+        </a>
+        <nav class="nav-bar">
+          <i class="fa-solid fa-bars menubars" onclick="handleMenu()"></i>
+          <ul id="menu">
+            <i class="fa-solid fa-xmark xmarkbar" onclick="handleMenu()"></i>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+
+            <li>
+              <a href="#">Package <i class="fa-solid fa-chevron-down"></i></a>
+              <ul class="Products-items">
+                <li><a href="#">Package Detial</a></li>
+                <li><a href="#">Package</a></li>
+                <li><a href="#">Package Detial</a></li>
+                <li><a href="#">Package</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#"
+                >Destination <i class="fa-solid fa-chevron-down"></i
+              ></a>
+              <ul class="Products-items">
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Destintion detail</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Destintion detail</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+              <ul class="Products-items">
+                <li><a href="#">Single Blog</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Single Blog</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero-about">
+        <div class="container">
+          <div class="hero-about-size">
+            <h1>Travel Packages</h1>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#">></a></li>
+              <li><a href="./Package.html">Packages</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="Popular-Destination">
+        <div class="container">
+          <div class="row all-popular">
+            <div class="Popular-data col-lg-6">
+              <h2>Popular Destination</h2>
+              <p>
+                orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna
+              </p>
+            </div>
+
+            <div class="col-lg-3">
+              <a href="#" class="btn btn-1">Discover more</a>
+            </div>
+          </div>
+
+          <div class="row card">
+            <div class="col-lg-4 col-md-6">
+              <div class="card-data resultImg">
+                <div class="pckImg">
+                  <img src="./assets/image/Paris.avif" alt="Paris-img" />
+                </div>
+
+                <div class="Packages-data">
+                  <div class="day-price">
+                    <h4>Paris</h4>
+                    <p>$299.00/2days</p>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore incididunt ut
+                    labore et dolore
+                  </p>
+                  <div class="row price">
+                    <div>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div>
+                      <a href="#" class="btn">Booking now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card-data resultImg">
+                <div class="pckImg">
+                  <img src="./assets/image/Swiss.avif" alt="Swiss-img" />
+                </div>
+
+                <div class="Packages-data">
+                  <div class="day-price">
+                    <h4>Swiss</h4>
+                    <p>$299.00/3days</p>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore incididunt ut
+                    labore et dolore
+                  </p>
+                  <div class="row price">
+                    <div>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div>
+                      <a href="#" class="btn">Booking now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card-data resultImg">
+                <div class="pckImg">
+                  <img src="./assets/image/Thailand.avif" alt="Thailand-img" />
+                </div>
+
+                <div class="Packages-data">
+                  <div class="day-price">
+                    <h4>Thailand</h4>
+                    <p>$299.00/3days</p>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore incididunt ut
+                    labore et dolore
+                  </p>
+                  <div class="row price">
+                    <div>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div>
+                      <a href="#" class="btn">Booking now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card-data resultImg">
+                <div class="pckImg">
+                  <img src="./assets/image/Taiwan.avif" alt="Taiwan-img" />
+                </div>
+
+                <div class="Packages-data">
+                  <div class="day-price">
+                    <h4>Taiwan</h4>
+                    <p>$299.00/4days</p>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore incididunt ut
+                    labore et dolore
+                  </p>
+                  <div class="row price">
+                    <div>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div>
+                      <a href="#" class="btn">Booking now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card-data resultImg">
+                <div class="pckImg">
+                  <img src="./assets/image/Indonesi.avif" alt="Indonesi-img" />
+                </div>
+
+                <div class="Packages-data">
+                  <div class="day-price">
+                    <h4>Indonesi</h4>
+                    <p>$299.00/3days</p>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore incididunt ut
+                    labore et dolore
+                  </p>
+                  <div class="row price">
+                    <div>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div>
+                      <a href="#" class="btn">Booking now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card-data resultImg">
+                <div class="pckImg">
+                  <img
+                    src="./assets/image/Singapore.avif"
+                    alt="Singapore-img"
+                  />
+                </div>
+
+                <div class="Packages-data">
+                  <div class="day-price">
+                    <h4>Singapore</h4>
+                    <p>$299.00/3days</p>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore incididunt ut
+                    labore et dolore
+                  </p>
+                  <div class="row price">
+                    <div>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div>
+                      <a href="#" class="btn">Booking now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Popular-img">
+        <div class="">
+          <div class="row">
+            <div class="col-12">
+              <img src="./assets/image/Paris.avif" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Tips & Article">
+        <div class="container">
+          <div class="row all-popular">
+            <div class="Popular-data col-lg-6">
+              <h2>Tips & Article</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna
+              </p>
+            </div>
+
+            <div class="col-lg-3">
+              <a href="#" class="btn btn-1">View more</a>
+            </div>
+          </div>
+
+          <div class="row all-blog">
+            <div class="col-lg-5 col-md-12">
+              <div class="row Blog-left-all">
+                <div class="col-sm-12 col-lg-12 col-md-6">
+                  <div class="Blog-left">
+                    <h5>Perfect | Tips</h5>
+                    <h4>9 Popular Travel Destintion on Sale in 2022 -</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 col-md-6">
+                  <div class="Blog-left">
+                    <h5>Tips | Travel</h5>
+                    <h4>How Are We Going Travel in 2022 -</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="Blog-right">
+                <div class="Blog-img">
+                  <img src="./assets/image/Travel.jpg" alt="Travel-img" />
+                </div>
+                <div class="Blog-data">
+                  <h5>Stories | Tips</h5>
+                  <h4>Travel Stories For Now and the Future</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                  </p>
+                  <a href="#" class="btn">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Subcribe">
+        <div class="container">
+          <div class="Subcribe-size">
+            <h2 class="main-title">Subcribe to get special price</h2>
+            <p class="sub-title">
+              Dont wanna miss something? subscribe right now and get special
+              promotion and monthly newsletter
+            </p>
+            <form action="#" class="Subcribe-form">
+              <input
+                type="email"
+                class="email"
+                placeholder="Type your  email herel"
+              />
+              <input
+                type="submit"
+                name="Explore now"
+                value="Subscribe"
+                class="btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row footer">
+          <div class="col-lg-4 col-md-5 col-sm-5 col-12">
+            <div class="footer-logo">
+              <img src="./assets/image/Logo (1).png" alt="logo" />
+            </div>
+            <p class="sub-title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              pharetra condimentum.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-5 col-12 quick-links">
+            <h5>Contact Information</h5>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-location-dot"></i>732 Despard St,
+                  Atlanta
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-comment"></i>info@traveller.com
+                </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa-solid fa-phone"></i>+62 6943 6956 </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-5 col-sm-5 col-12">
+            <h5>Quick Links</h5>
+            <ul class="quick-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Tours</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-5 col-sm-5 col-12">
+            <h5>Follow Us</h5>
+            <ul class="social-media">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
